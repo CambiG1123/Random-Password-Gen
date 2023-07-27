@@ -30,4 +30,4 @@ A user will be met with a red generate button that when clicked will provide the
 I used a youtube tutorial to help me with this random password generator. The video can be found at this link https://www.youtube.com/watch?v=duNmhKgtcsI
 
 ##Screenshot
-! [screenshot] (images\Screenshot 2023-07-27 010536.png?raw=true)
+! [screenshot] (images\Screenshot 2023-07-27 010536.jpg?raw=true "Screenshot")
