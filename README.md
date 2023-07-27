@@ -23,3 +23,11 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+##Usage
+A user will be met with a red generate button that when clicked will provide them with several prompts. These prompts ask the user how long they would like the password to be, if they would like to include lower case and/or uppercase letters, numbers, and several special characters. After all these prompts are answered sufficiently, a random password to their specifications will be displayed in the empty text box.
+##Credits
+I used a youtube tutorial to help me with this random password generator. The video can be found at this link https://www.youtube.com/watch?v=duNmhKgtcsI
+
+##Screenshot
+! [screenshot] (images\Screenshot 2023-07-27 010536.png?raw=true)
