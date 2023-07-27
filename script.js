@@ -52,17 +52,40 @@ function displayPrompts(){
 
 
 function generatePassword() {
+  // creates a variable password that represents an empty string
+  var password ="";
 
-  
+// create a for loop to generate randomly along the length of the charChoice variable as many times as the minCharLength variable
+for(var i = 0; i < minCharLength; i++){
+  //creates a new variable randomSet that is equal to the randomly generated characters  
+var randomSet = Math.floor(Math.random() * charChoice.length);
+  // new variable password is password concatenated with charChoice[randomSet]
+var password = password + charChoice[randomSet];
+}
+
+return password;
+
 
 }
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  // created a variable to represent the completed displayPrompts function
+  var checkedPrompts = displayPrompts();
+  var newPasswordText = document.querySelector("#password");
 
-  passwordText.value = password;
+// Create an if statement that checks if checkedPrompts is true and if it is assigns the variable newPassword to represent the generatePassword function
+
+  if (checkedPrompts){
+    var newPassword = generatePassword();
+
+    newPasswordText.value = newPassword;
+
+}
+return
+
+
+
 
 }
 
